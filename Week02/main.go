@@ -49,7 +49,7 @@ type DataEntity struct {
 }
 
 type Response struct {
-	Code    int `json:"code"`
+	Code    int
 	Data    interface{}
 	Message string
 }
